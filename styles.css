@@ -34,18 +34,23 @@ h2 {
     position: static;
     transform: rotate(0);
     /* we dont need -25 here this is absolute */
-    padding-right: 100%;
+    padding-right: 0 auto;
   }
 
   #title {
     text-align: center;
   }
-  .wrapper
-{
-  width: 100%;
-  margin: 0 auto;
+  html,body{
+    width: 100%;
+    
+     overflow-x:hidden;
+   }
 }
-}
+html,body{
+    width: 100%;
+    
+     overflow-x:hidden;
+   }
 
 body {
   font-family: "Montserrat";
